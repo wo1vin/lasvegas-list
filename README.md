@@ -21,6 +21,10 @@ Initially developed collaboratively with a small, global team of software develo
 
 bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
+# MVC Structure
+
+![MVC Structure](https://github.com/wo1vin/lasvegas-list/blob/main/assets/lasvegas-list-mvc.png?raw=true)
+
 ---
 
 # Developers❗️ 
