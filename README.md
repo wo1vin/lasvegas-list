@@ -1,3 +1,5 @@
+![lasvegas-list cover image](https://github.com/wo1vin/lasvegas-list/blob/main/assets/lasvegas-list-cover.png?raw=true)
+
 # Introduction
 
 The project was built to take the hassle out of where to go in Las Vegas so that tourists can spend more time having fun and less time browsing the internet.
@@ -23,7 +25,7 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 # MVC Structure
 
-![MVC Structure](https://github.com/wo1vin/lasvegas-list/blob/main/assets/lasvegas-list-mvc.png?raw=true)
+![lasvegas-list MVC Structure](https://github.com/wo1vin/lasvegas-list/blob/main/assets/lasvegas-list-mvc.png?raw=true)
 
 ---
 
