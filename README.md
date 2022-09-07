@@ -1,22 +1,19 @@
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
-
----
-
-> Be sure to add that lovely star 😀 and fork it for your own copy
+The project was built to take the hassle out of where to go in Las Vegas so that tourists can spend more time having fun and less time browsing the internet.
+Initially developed collaboratively with a small, global team of software developers implementing the MVC Architecture and "authorization" so folx can sign up and personalize their experience.  
 
 ---
 
 # Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+- Build a MVP (Most Viable Product) that enables users to create a list of Las Vegas attractions, and cross out other pre-stored locations categorized into other lists.
 
 ---
 
 # Who is this for? 
 
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
+- Built for Las Vegas tourists of all walks of life. Wether they want the classic tourist experiences or something more tailored to their interests.
 
 ---
 
@@ -26,19 +23,25 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ---
 
-# Install all the dependencies or node packages used for development via Terminal
+# Developers❗️ 
 
-`npm install` 
+- ❗️ Create a .env file in the config/ folder and store your `PORT` and `DB_String` variables in it.❗️
+
+- Install all the dependencies or node packages used for development via Terminal with `npm install`.
 
 ---
 
-# Things to add
+# Future Optimizations
 
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
- 
- Have fun testing and improving it! 😎
-
+- Enable users view more details and options when they click on a pre-stored location such as:
+  -- Add attraction to their custom list
+  -- Like/heart/favorite attraction
+  -- See the location's address, hours, phone, or website
+  -- Follow link to Yelp/Google Reviews
+- Map that pinpoints attractions or their pickup locations. Lets users click pinpoint to view location info, gives the option to 'add to list' or 'save'.
+- Enable users to add known locations to their list by integrating a map API so it auto populates the right information. Ex: 
+  -- User starts typing "Stea"
+  -- A drop-down appears of the nearest steakhouses
+  -- User selects one from drop-down
+  -- The app pulls the location data (address, #, etc) and submits it to the Attractions model.
 
