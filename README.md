@@ -39,15 +39,15 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 # Future Optimizations
 
-- Enable users view more details and options when they click on a pre-stored location such as:
-  -- Add attraction to their custom list
-  -- Like/heart/favorite attraction
-  -- See the location's address, hours, phone, or website
-  -- Follow link to Yelp/Google Reviews
+- Enable users to view more details and options when they click on a pre-stored location such as:
+    - Add attraction to their custom list
+    - Like/heart/favorite attraction
+    - See the location's address, hours, phone, or website
+    - Follow link to Yelp/Google Reviews
 - Map that pinpoints attractions or their pickup locations. Lets users click pinpoint to view location info, gives the option to 'add to list' or 'save'.
 - Enable users to add known locations to their list by integrating a map API so it auto populates the right information. Ex: 
-  -- User starts typing "Stea"
-  -- A drop-down appears of the nearest steakhouses
-  -- User selects one from drop-down
-  -- The app pulls the location data (address, #, etc) and submits it to the Attractions model.
+    - User starts typing "Stea"
+    - A drop-down appears of the nearest steakhouses
+    - User selects one from drop-down
+    - The app pulls the location data (address, #, etc) and submits it to the Attractions model.
 
