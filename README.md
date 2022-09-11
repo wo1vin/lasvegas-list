@@ -1,4 +1,4 @@
-![lasvegas-list cover image](https://github.com/wo1vin/lasvegas-list/blob/main/assets/lasvegas-list-cover.png?raw=true)
+![lasvegas-list cover image](https://github.com/wo1vin/lasvegas-list/blob/100659cfc9aae65f502b2f3a00d4714853e2730d/assets/lasvegas-list-cover.png?raw=true)
 
 # Introduction
 
