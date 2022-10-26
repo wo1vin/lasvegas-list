@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const passport = require('passport')
 const session = require('express-session')
-const MongoDBStore = require('connect-mongodb-session')(session)
+const MongoStore = require('connect-mongo')(session)
 const flash = require('express-flash')
 const logger = require('morgan')
 const connectDB = require('./config/database')
@@ -33,7 +33,7 @@ app.use(
       secret: 'keyboard cat',
       resave: false,
       saveUninitialized: false,
-      store: new MongoDBStore({ mongooseConnection: mongoose.connection }),
+      store: new MongoStore({ mongooseConnection: mongoose.connection }),
     })
   )
 
