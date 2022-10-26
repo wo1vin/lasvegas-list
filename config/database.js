@@ -8,18 +8,18 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       //the following options are deprecated.
-      // useFindAndModify: false,
-      // useCreateIndex: true
-    })
+      useFindAndModify: false,
+      useCreateIndex: true
+    });
 
     // print to console if successful
-    console.log(`MongoDB Connected: ${conn.connection.host}`)
+    console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (err) {
     // otherwise print the error to the console
-    console.error(err)
-    process.exit(1)
+    console.error(err);
+    process.exit(1);
   }
-}
+};
 
 //export the file that creates a connection to the database
-module.exports = connectDB
+module.exports = connectDB;

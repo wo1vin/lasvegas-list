@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const passport = require('passport')
 const session = require('express-session')
-const MongoStore = require('connect-mongo')//(session)
+const MongoStore = require('connect-mongo')(session)
 const flash = require('express-flash')
 const logger = require('morgan')
 const connectDB = require('./config/database')
@@ -21,8 +21,10 @@ app.set('view engine', 'ejs')
 
 // the css file wasn't taking effect until I added '/public'
 app.use('/public', express.static('public'))
+// body parsing
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+// morgan
 app.use(logger('dev'))
 
 // Sessions
@@ -38,6 +40,7 @@ app.use(
 // Passport middleware
 app.use(passport.initialize())
 app.use(passport.session())
+
 app.use(flash())
   
 app.use('/', mainRoutes)
