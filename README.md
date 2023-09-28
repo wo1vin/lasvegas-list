@@ -39,6 +39,8 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 # Future Optimizations
 
+- Change the mouse pointer on hover of list items using `document.body.style.cursor = *cursor-url*;`
+- Change the word "Gambling" to "Casino".
 - Enable users to view more details and options when they click on a pre-stored location such as:
     - Add attraction to their custom list
     - Like/heart/favorite attraction
