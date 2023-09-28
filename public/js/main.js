@@ -1,3 +1,7 @@
+// need to change the mouse pointer on hover of list items
+// use document.body.style.cursor = *cursor-url*;
+
+
 const deleteBtn = document.querySelectorAll('.del')
 const attractionItem = document.querySelectorAll('span.not')
 const attractionComplete = document.querySelectorAll('span.completed')
@@ -21,7 +25,7 @@ function changeTabs(){
       Array.from(lists).forEach(x => {
         if(x.className !== 'customL list'){ x.style.display = 'none'}
       })
-    } else if (this.innerText === 'Gambling'){
+    } else if (this.innerText === 'Casino'){
       document.querySelector('ul.gamblingL').style.display = 'flex';
       Array.from(lists).forEach(x => {
         if(x.className !== 'gamblingL list'){ x.style.display = 'none'}
